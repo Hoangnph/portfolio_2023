@@ -48,7 +48,7 @@ const projectsData = [
     description:
       "React native,Facebook SDK, Firebase, Websocket, MongoDB, RestApi",
     image: "/images/projects/chatapp.png",
-    tag: ["All", "Web"],
+    tag: ["All", "Mobile"],
     gitUrl: "/",
     previewUrl: "/"
   },
