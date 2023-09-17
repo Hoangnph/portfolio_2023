@@ -55,7 +55,7 @@ const projectsData = [
   {
     id: 6,
     title: "Animation Portfolio",
-    description: "Nextjs13, 1 days build",
+    description: "Nextjs13, 1 day build",
     image: "/images/projects/portfolio.png",
     tag: ["All", "Web"],
     gitUrl: "/",
