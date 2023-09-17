@@ -59,7 +59,7 @@ const projectsData = [
     image: "/images/projects/portfolio.png",
     tag: ["All", "Web"],
     gitUrl: "/",
-    previewUrl: "/"
+    previewUrl: "https://portfolio-2023-three-phi.vercel.app/"
   }
 ];
 
