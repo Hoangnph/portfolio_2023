@@ -1,10 +1,13 @@
 import { BubbleChat } from 'flowise-embed-react'
 
 const AiChatBox = () => {
+
+    const apiHost = process.env.NEXT_PUBLIC_API_HOST || 'http://212.38.94.209:8888';
+
   return (
     <BubbleChat
             chatflowid="ecc03006-8bf2-4fdd-b8fc-e2c42a9b1dfd"
-            apiHost="http://212.38.94.209:8888"
+            apiHost={apiHost}
             theme={{
                 button: {
                     backgroundColor: "linear-gradient(135deg, #C083FA, #DB2979)",
