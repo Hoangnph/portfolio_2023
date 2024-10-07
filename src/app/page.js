@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 import HeroSection from "./components/HeroSection";
 import Navbar from "./components/Navbar";
@@ -6,6 +8,8 @@ import ProjectsSection from "./components/ProjectsSection";
 import EmailSection from "./components/EmailSection";
 import Footer from "./components/Footer";
 import AchievementsSection from "./components/AchievementsSection";
+import AiChatBox from "./components/AiChatBox";
+
 
 export default function Home() {
   return (
@@ -17,8 +21,10 @@ export default function Home() {
         <AboutSection />
         <ProjectsSection />
         <EmailSection />
+        <AiChatBox />
       </div>
-      <Footer />
+      
+      <Footer />    
     </main>
   );
 }

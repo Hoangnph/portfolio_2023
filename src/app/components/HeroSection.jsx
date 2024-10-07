@@ -24,21 +24,27 @@ const HeroSection = () => {
               sequence={[
                 "Huy Hoàng",
                 1000,
-                "Mobile Developer",
+                "App Architecture",
                 1000,
-                "PWA Developer",
+                "AI Engineer",
                 1000,
-                "UX Designer",
+                "Fullstack Dev",
                 1000
               ]}
               wrapper="span"
-              speed={50}
+              speed={30}
               repeat={Infinity}
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            5 năm kinh nghiệm thiết kế, lập trình ứng dụng Mobile App hiệu năng
+            15 năm hoạt động trong lĩnh vực Công nghệ Thông tin.
+          </p>
+          <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
+            5 năm kinh nghiệm thiết kế, lập trình ứng dụng Mobile/Web App hiệu năng
             cao.
+          </p>
+          <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
+            2 năm kinh nghiệm trong lĩnh vực AI: Agentic AI, LLM, Prompt Engineering, ...
           </p>
           <div>
             <Link

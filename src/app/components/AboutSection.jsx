@@ -9,14 +9,13 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className="list-disc pl-2 text-slate-400">
-        <li>React Native - TypeScript</li>
-        <li>RestApi - GraphQL</li>
-        <li>ReactQuery - Redux/RTK - Redux thunk</li>
-        <li>MongoDB/MySQL</li>
-        <li>Firebase</li>
-        <li>Facebook SDK</li>
-        <li>Websocket</li>
-        <li>Stripe/Paypal/VnPay/MomoPay - Payment Gateway</li>
+        <li>AI Generative - GPT/BERT/T5/LLama</li>
+        <li>Chatbot Tech - TTS/STT/NLU/NLP</li>
+        <li>Mobile App Development - React Native</li>
+        <li>Web App Development - NextJS</li>
+        <li>Backend Development - NestJS/Python</li>
+        <li>Database - MongoDB/PostgreSQL/MySQL</li>
+        <li>Cloud Service - AWS/Firebase</li>
       </ul>
     )
   },
@@ -25,11 +24,11 @@ const TAB_DATA = [
     id: "advance",
     content: (
       <ul className="list-disc pl-2 text-slate-400">
-        <li>Mobile Design UI/UX with Figma</li>
-        <li>Token Design</li>
-        <li>React Native Performance Optimization</li>
-        <li>Dynamic Components Architecture</li>
-        <li>Micro Front End Design</li>
+        <li>Chánh niệm - Tập trung vào nhiệm vụ</li>
+        <li>Quản lý kỳ vọng - Tập trung vào kết quả</li>
+        <li>Tự học - Tự nâng cao năng lực</li>
+        <li>Làm việc nhóm - Tập trung phối hợp hiệu quả</li>
+        <li>Làm việc độc lập - Tự giác và tự chủ</li>
       </ul>
     )
   },
@@ -71,11 +70,11 @@ const AboutSection = () => {
           <h2 className="text-4xl font-bold text-white mb-4">
             Đôi điều về tôi
           </h2>
-          <p className="text-base lg:text-lg text-gray-400">
-            Tôi là một kỹ sư lập trình ứng dụng Mobile hiệu năng cao. Tôi có
-            kinh nghiệm làm việc với các ngôn ngữ JavaScript, React Native -
-            TypeScript, Redux, Node.js, NoSQL/SQL Database, RestApi/GraphQl,
-            Git, Jira, Bitrise CI/CD cho Mobile App. Tôi có khả năng thích ứng
+          <p className="text-base lg:text-lg text-gray-400 text-justify">
+            Tôi là một kỹ sư  ứng dụng AI tạo sinh để tạo ra các sản phẩm hiệu năng cao. Tôi có
+            kinh nghiệm làm việc với các hệ thống AI tạo sinh cùng một số kiến thức phát triển App full stack như: 
+            Python, JavaScript, React Native, TypeScript, Redux, Node.js, NoSQL/SQL Database (MongoDB/ PostgreSQL/ MySQL) , RestApi/GraphQl,
+            Git, Jira, Bitrise CI/CD... để tạo ra sản phẩm hoàn chỉnh. Tôi có khả năng thích ứng
             nhanh với công nghệ và luôn khát khao nâng cao năng lực và kỹ năng
             của mình. Làm việc nhóm là thế mạnh của tôi. Tôi thích tham gia
             trong những dự án công nghệ hàm lượng kỹ thuật cao và tạo ra những
