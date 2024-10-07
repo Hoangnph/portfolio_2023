@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import GithubIcon from "../../../public/github-icon.svg";
 import FacebookIcon from "../../../public/facebook-icon.svg";
 import ZaloIcon from "../../../public/zalo.svg";
+import EmailIcon from "../../../public/email-icon.svg"; // Add this line
 import Link from "next/link";
 import Image from "next/image";
 
@@ -30,6 +31,14 @@ const EmailSection = () => {
     setEmailSended(true);
   };
 
+  const handleEmailClick = () => {
+    window.location.href = "mailto:hoangnph@gmail.com"; // Replace with your email
+  };
+
+  const handlePhoneClick = () => {
+    window.location.href = "tel:0963760450"; // Replace with your phone number
+  };
+
   return (
     <section
       id="contact"
@@ -38,25 +47,30 @@ const EmailSection = () => {
       <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary-900 to-transparent rounded-full h-80 w-80 z-0 blur-lg absolute top-3/4 -left-4 transform -translate-x-1/2 -translate-1/2"></div>
       <div className="z-10">
         <h5 className="text-xl font-bold text-white my-2">
-          Let`&apos;s Connect
+          Hãy kết nối để cùng tạo ra điều tuyệt vời!
         </h5>
-        <p className="text-[#ADB7BE] mb-4 max-w-md">
+        <p className="text-[#ADB7BE] mb-4 max-w-md text-justify">
           {" "}
-          Tôi đang tìm kiếm cơ hội làm việc mới cho mình, email của tôi luôn sẵn
+          Tôi đang tìm kiếm cơ hội làm việc mới cho mình, Tôi luôn sẵn
           sàng chào đón bạn. Bất cứ câu hỏi hay lời làm quen nào cũng được tôi
           chào đón nồng nhiệt và phản hồi lại với bạn một cách nhanh và nhiệt
-          tình nhất!
+          tình nhất! Và nếu muốn biết thêm về tôi, hãy hỏi người bạn trợ lý ở 
+          bên dưới góc phải màn hình nhé.
         </p>
+        <button onClick={handlePhoneClick} className="text-[#ADB7BE] mb-4 max-w-md text-justify">Phone: +84 963 760450</button>
+        <br />
+        <button onClick={handleEmailClick} className="text-[#ADB7BE] mb-4 max-w-md text-justify">Email: hoangnph@gmail.com</button>
+        <br />
         <div className="socials flex flex-row gap-2">
           <Link href=" https://zalo.me/0963760450">
-            <Image src={ZaloIcon} alt="Github Icon" />
+            <Image src={ZaloIcon} alt="Zalo Icon" />
           </Link>
           <Link href="https://www.facebook.com/hoang.h.nguyenphu">
-            <Image src={FacebookIcon} alt="Linkedin Icon" />
+            <Image src={FacebookIcon} alt="Facebook Icon" />
           </Link>
         </div>
       </div>
-      <div className="z-10">
+      {/* <div className="z-10">
         {emailSended ? (
           <div className="text-white block text-2xl font-medium">
             {" "}
@@ -135,7 +149,7 @@ const EmailSection = () => {
             </button>
           </form>
         )}
-      </div>
+      </div> */}
     </section>
   );
 };

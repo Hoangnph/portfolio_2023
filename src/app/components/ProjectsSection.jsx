@@ -12,12 +12,12 @@ const projectsData = [
     image: "/images/projects/ecom_web.png",
     tag: ["All", "Web"],
     gitUrl: "/",
-    previewUrl: "https://ecommerce-front-liard.vercel.app/"
+    previewUrl: "/"
   },
   {
     id: 2,
     title: "Kidsplaza Mobile App",
-    description: "React Native, Redux thunk, OneSignal, VNPay Gateway",
+    description: "React Native, Redux thunk, OneSignal, VNPay Gateway ...",
     image: "/images/projects/kidsplaza.png",
     tag: ["All", "Mobile"],
     gitUrl: "/",
@@ -27,7 +27,7 @@ const projectsData = [
   {
     id: 3,
     title: "Vega City Mobile Application",
-    description: "Project task: Figma Design, React native",
+    description: "React native, Nodejs/Express, MongoDB, RestApi ...",
     image: "/images/projects/travel.png",
     tag: ["All", "Mobile"],
     gitUrl: "/",
@@ -36,7 +36,7 @@ const projectsData = [
   {
     id: 4,
     title: "Movies Library Mobile Application",
-    description: "React Native, TMDB cdn ,Firebase, ",
+    description: "React Native, TMDB cdn ,Firebase ... ",
     image: "/images/projects/movies.png",
     tag: ["All", "Mobile"],
     gitUrl: "/",
@@ -44,9 +44,9 @@ const projectsData = [
   },
   {
     id: 5,
-    title: "Mobile Chat App",
+    title: "AI Chat App",
     description:
-      "React native,Facebook SDK, Firebase, Websocket, MongoDB, RestApi",
+      "AI Chatbot, RAG AI, Vector Database, Multiple Embedding Models, Python, Langchain ...",
     image: "/images/projects/chatapp.png",
     tag: ["All", "Mobile"],
     gitUrl: "/",
@@ -55,7 +55,7 @@ const projectsData = [
   {
     id: 6,
     title: "Animation Portfolio",
-    description: "Nextjs13, 1 day build",
+    description: "Nextjs, Flowise AI, Vector Database ...",
     image: "/images/projects/portfolio.png",
     tag: ["All", "Web"],
     gitUrl: "/",
@@ -84,7 +84,7 @@ const ProjectsSection = () => {
   return (
     <section id="projects">
       <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
-        My Projects
+        Một vài dự án của tôi 
       </h2>
       <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
         <ProjectTag
