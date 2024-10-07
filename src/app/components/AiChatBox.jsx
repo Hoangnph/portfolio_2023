@@ -2,7 +2,7 @@ import { BubbleChat } from 'flowise-embed-react'
 
 const AiChatBox = () => {
 
-    const apiHost = process.env.NEXT_PUBLIC_API_HOST || 'http://212.38.94.209:8888';
+const apiHost = process.env.NEXT_PUBLIC_API_HOST || 'http://localhost:8888';
 
   return (
     <BubbleChat
