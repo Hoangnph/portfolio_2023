@@ -11,8 +11,8 @@ const apiHost = process.env.NEXT_PUBLIC_API_HOST || 'http://localhost:8888';
             theme={{
                 button: {
                     backgroundColor: "linear-gradient(135deg, #C083FA, #DB2979)",
-                    right: 40,
-                    bottom: 40,
+                    right: 20,
+                    bottom: 20,
                     size: 64, // small | medium | large | number
                     dragAndDrop: true,
                     iconColor: "white",
@@ -26,14 +26,14 @@ const apiHost = process.env.NEXT_PUBLIC_API_HOST || 'http://localhost:8888';
                 tooltip: {
                     showTooltip: true,
                     tooltipMessage: 'Hỏi tui nè 👋',
-                    tooltipBackgroundColor: 'black',
+                    tooltipBackgroundColor: "linear-gradient(135deg, #C083FA, #DB2979)",
                     tooltipTextColor: 'white',
                     tooltipFontSize: 16,
                 },
                 chatWindow: {
                     showTitle: true,
                     title: 'Trợ lý của Hoàng',
-                    titleAvatarSrc: 'https://firebasestorage.googleapis.com/v0/b/aichatbot001.appspot.com/o/avatars%2Fdrib_blink_bot.gif?alt=media&token=a1b4908d-e5b9-4cd2-b20c-34b1526c1203',
+                    titleAvatarSrc: 'https://firebasestorage.googleapis.com/v0/b/aichatbot001.appspot.com/o/avatars%2Ffunny-cat.gif?alt=media&token=515cab8d-f506-44a4-afbe-ecc5c36b4b8c',
                     showAgentMessages: true,
                     welcomeMessage: 'Xin chào! Tôi là trợ lý của Hoàng, hãy hỏi tôi các thông tin bạn muốn biết về Hoàng nhé',
                     errorMessage: 'This is a custom error message',
@@ -49,7 +49,7 @@ const apiHost = process.env.NEXT_PUBLIC_API_HOST || 'http://localhost:8888';
                         backgroundColor: "#f7f8ff",
                         textColor: "#303235",
                         showAvatar: true,
-                        avatarSrc: "https://firebasestorage.googleapis.com/v0/b/aichatbot001.appspot.com/o/avatars%2Fdrib_blink_bot.gif?alt=media&token=a1b4908d-e5b9-4cd2-b20c-34b1526c1203",
+                        avatarSrc: "https://firebasestorage.googleapis.com/v0/b/aichatbot001.appspot.com/o/avatars%2Ffunny-cat.gif?alt=media&token=515cab8d-f506-44a4-afbe-ecc5c36b4b8c",
                     },
                     userMessage: {
                         backgroundColor: "#3B81F6",
