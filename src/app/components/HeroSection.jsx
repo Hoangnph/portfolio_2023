@@ -54,7 +54,7 @@ const HeroSection = () => {
               Liên hệ
             </Link>
             <Link
-              href="https://drive.google.com/file/d/1CUTlwqXHHtD5IFSmtxFjQKvQOxeRMujw/view?usp=sharing"
+              href="https://firebasestorage.googleapis.com/v0/b/aichatbot001.appspot.com/o/profile%2Fhoangnph_cv.pdf?alt=media&token=497c6181-f8ad-47ed-9986-f77559110ecb"
               className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3"
             >
               <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
