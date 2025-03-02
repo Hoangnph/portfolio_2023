@@ -19,7 +19,7 @@ const projectsData = [
     title: "Kidsplaza Mobile App",
     description: "React Native, Redux thunk, OneSignal, VNPay Gateway ...",
     image: "/images/projects/kidsplaza.png",
-    tag: ["All", "Mobile"],
+    tag: ["All", "Mobile", "AI"],
     gitUrl: "/",
     previewUrl:
       "https://apps.apple.com/vn/app/kidsplaza-mẹ-bầu-em-bé/id1570027587?l=vi"
@@ -48,7 +48,7 @@ const projectsData = [
     description:
       "AI Chatbot, RAG AI, Vector Database, Multiple Embedding Models, Python, Langchain ...",
     image: "/images/projects/chatapp.png",
-    tag: ["All", "Mobile"],
+    tag: ["All", "Mobile", "AI"],
     gitUrl: "/",
     previewUrl: "/"
   },
@@ -57,7 +57,7 @@ const projectsData = [
     title: "Animation Portfolio",
     description: "Nextjs, Flowise AI, Vector Database ...",
     image: "/images/projects/portfolio.png",
-    tag: ["All", "Web"],
+    tag: ["All", "Web", "AI"],
     gitUrl: "/",
     previewUrl: "https://portfolio-2023-three-phi.vercel.app/"
   }
@@ -101,6 +101,11 @@ const ProjectsSection = () => {
           onClick={handleTagChange}
           name="Mobile"
           isSelected={tag === "Mobile"}
+        />
+        <ProjectTag
+          onClick={handleTagChange}
+          name="AI"
+          isSelected={tag === "AI"}
         />
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">

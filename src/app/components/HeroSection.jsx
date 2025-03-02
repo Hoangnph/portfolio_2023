@@ -24,9 +24,9 @@ const HeroSection = () => {
               sequence={[
                 "Huy Hoàng",
                 1000,
-                "App Architecture",
-                1000,
                 "AI Engineer",
+                1000,
+                "ML Expert",
                 1000,
                 "Fullstack Dev",
                 1000
@@ -37,14 +37,13 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            15 năm hoạt động trong lĩnh vực Công nghệ Thông tin.
+            15 năm kinh nghiệm trong ngành công nghệ thông tin.
           </p>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            5 năm kinh nghiệm thiết kế, lập trình ứng dụng Mobile/Web App hiệu năng
-            cao.
+            Chuyên gia AI/ML với chứng chỉ Google Professional Machine Learning Engineer.
           </p>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            2 năm kinh nghiệm trong lĩnh vực AI: Agentic AI, LLM, Prompt Engineering, ...
+            Thành thạo Python, NextJS và Google Cloud, đam mê sử dụng dữ liệu để thúc đẩy đổi mới kinh doanh.
           </p>
           <div>
             <Link
@@ -53,12 +52,20 @@ const HeroSection = () => {
             >
               Liên hệ
             </Link>
-            <Link
+            {/* <Link
               href="https://firebasestorage.googleapis.com/v0/b/aichatbot001.appspot.com/o/profile%2Fhoangnph_cv.pdf?alt=media&token=497c6181-f8ad-47ed-9986-f77559110ecb"
               className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3"
             >
               <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
                 Download CV
+              </span>
+            </Link> */}
+            <Link
+              href="https://www.credly.com/badges/c39a3953-5e10-4c42-b10b-9fbf023a175b/public_url"
+              className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3"
+            >
+              <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
+                Certificate
               </span>
             </Link>
           </div>

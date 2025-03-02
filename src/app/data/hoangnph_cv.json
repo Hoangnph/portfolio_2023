@@ -1,0 +1,118 @@
+{
+  "cv": {
+    "thong_tin_ca_nhan": {
+      "ho_ten": "Nguyễn Phú Huy Hoàng",
+      "email": "hoangnph@gmail.com",
+      "so_dien_thoai": "+84-0963-760-450",
+      "linkedin": "https://www.pippala.tech",
+      "dia_diem": "Thành phố Hà Nội, Việt Nam"
+    },
+    "tom_tat_chuyen_mon": {
+      "mo_ta": "Chuyên gia CNTT với 15 năm kinh nghiệm trong ngành công nghệ thông tin. với chứng chỉ Google Professional Machine Learning Engineer với thành tích đã chứng minh trong việc phát triển các hệ thống AI: chatbot AI, hệ thống tự động hóa sử dụng AI và giải pháp thị giác máy tính (vision computing). Thành thạo Python, NextJS và Google Cloud, đam mê sử dụng dữ liệu để thúc đẩy đổi mới kinh doanh."
+    },
+    "ky_nang_chinh": {
+      "ky_nang_ky_thuat": [
+        "AI/ML: Xử lý ngôn ngữ tự nhiên (NLP), AI sinh tạo, Thị giác máy tính, Mô hình dự đoán",
+        "Lập trình: Python (Chuyên gia), NextJS, TypeScript, FastAPI, SQL",
+        "Đám mây & Dữ liệu: Google Cloud (GCP), Cơ sở dữ liệu nhúng, Flowise AI, Docker",
+        "Framework: TensorFlow, PyTorch, LangChain (tùy chọn)",
+        "Ứng dụng: Phát triển chatbot, Tự động hóa, Khai thác dữ liệu"
+      ],
+      "ky_nang_mem": [
+        "Giải quyết vấn đề",
+        "Phối hợp đội nhóm",
+        "Giao tiếp",
+        "Định hướng nghiên cứu",
+        "Học tập không ngứng"
+      ]
+    },
+    "qua_trinh_cong_tac": [
+      {
+        "chuc_danh": "Tech Lead",
+        "cong_ty": "Hệ thống giáo dụng Jaxtina",
+        "dia_diem": "Thành phố Hà Nội, Việt Nam",
+        "thoi_gian": "Tháng 3/2023 – 10/2024",
+        "trach_nhiem": [
+          "Thiết kế hệ thống giáo viên ảo, chatbot AI, tăng tương tác khách hàng.",
+          "Phát triển hệ thống tự động số hoá bài tập, giảm chi phí vận hành 25%.",
+          "Dẫn dắt đội 4 kỹ sư triển khai giải pháp tự chấm thông minh, đạt độ chính xác 95%.",
+          "Hướng dẫn nhân viên mới về Python, NextJS và thực hành tốt nhất trong triển khai mô hình AI."
+        ]
+      },
+      {
+        "chuc_danh": "Tech Lead",
+        "cong_ty": "Hệ thống KidPlaza",
+        "dia_diem": "Thành phố Hà Nội, Việt Nam",
+        "thoi_gian": "Tháng 2022 – 2023",
+        "trach_nhiem": [
+          "Phối hợp phát triển, thiết kế hệ thống dự đoán định hình chiến lượng kinh doanh với độ chính xác đạt 85%",
+          "Phát triển hệ thống tự động kiểm soát ra vào cho sự kiện lớn.",
+          "Phối hợp triển khai hệ thống tự động đễ xuất trên ứng dụng Mobile."
+        ]
+      },
+      {
+        "chuc_danh": "Tech Lead",
+        "cong_ty": "Công ty Công ty cổ phần công nghệ Savis",
+        "dia_diem": "Hà Nội, Việt Nam",
+        "thoi_gian": "Năm 2020 – 2022",
+        "trach_nhiem": [
+          "Phối nhợp xây dựng, phát triển triển khai các hệ thống bảo mật cho NEAC, Đài truyền hình Việt Nam, các sở ban ngành ...",
+          "Triển khai tự động hóa giám sát hệ thống mạng thời gian thực.",
+        ]
+      },
+      {
+        "chuc_danh": "Chuyên gia CNTT",
+        "cong_ty": "Tập đoàn công nghiệp - Viễn thông Quân đội",
+        "dia_diem": "Thành phố Hà Nội, Việt Nam",
+        "thoi_gian": "Năm 2010 – 2019",
+        "trach_nhiem": [
+          "Nghiên cứu và phối hợp xây dựng, phát triển và triển khai hệ thống lõi viễn thông.",
+          "Chuyển hướng sang các vai trò tập trung vào ML, tự động hoá, xây dựng nền tảng."
+        ]
+      }
+    ],
+    "qua_trinh_hoc_tap": [
+      {
+        "bang_cap": "Cử nhân Công nghệ Thông tin",
+        "truong_hoc": "Học viện Kỹ thuật Quân sự",
+        "dia_diem": "Thành phố Hà Nội, Việt Nam",
+        "nam_tot_nghiep": "2009"
+      }
+    ],
+    "chung_chi": [
+      {
+        "ten_chung_chi": "Google Professional Machine Learning Engineer",
+        "don_vi_cap": "Google",
+        "nam": "2025",
+        "url":"https://www.credly.com/badges/c39a3953-5e10-4c42-b10b-9fbf023a175b/public_url"
+      }
+    ],
+    "du_an_noi_bat": [
+      {
+        "ten_du_an": "Chatbot AI với Flowise AI",
+        "mo_ta": "Phát triển chatbot có khả năng mở rộng bằng Flowise AI và NextJS, triển khai trên Google Cloud, xử lý hơn 10.000 tương tác hàng tháng cho hỗ trợ khách hàng. Là nguyên mẫu chatbot AI cho trong cá nhân",
+        "cong_nghe": "Flowise AI, Python, NextJS, Google Cloud"
+      },
+      {
+        "ten_du_an": "Tự động hóa với Cơ sở dữ liệu nhúng",
+        "mo_ta": "Phát triển và sử dụng công cụ tự động hóa với cơ sở dữ liệu nhúng, cải thiện hiệu suất quy trình 35% cho các luồng công việc vận hành.",
+        "cong_nghe": "Python, Cơ sở dữ liệu nhúng, Docker"
+      },
+      {
+        "ten_du_an": "Thị giác máy tính trên GCP",
+        "mo_ta": "Phát triển hệ thống Corona virus detection trên Google Cloud, đạt độ chính xác 92% cho ứng dụng bảo mật.",
+        "cong_nghe": "Yolo, Google Cloud, Python"
+      }
+    ],
+    "ngon_ngu": [
+      {
+        "ngon_ngu": "Tiếng Việt",
+        "trinh_do": "Bản ngữ"
+      },
+      {
+        "ngon_ngu": "Tiếng Anh",
+        "trinh_do": "Thành thạo"
+      }
+    ]
+  }
+}
