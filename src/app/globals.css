@@ -4,24 +4,58 @@
 
 :root {
   --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
+  --background-start-rgb: 245, 245, 245;
   --background-end-rgb: 255, 255, 255;
+  --primary-color: 192, 131, 250;
+  --secondary-color: 219, 41, 121;
+  --text-primary: 48, 50, 53;
+  --text-secondary: 173, 183, 190;
+  --card-bg: 240, 240, 240;
+  --border-color: 220, 220, 220;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.dark {
+  --foreground-rgb: 255, 255, 255;
+  --background-start-rgb: 18, 18, 18;
+  --background-end-rgb: 18, 18, 18;
+  --text-primary: 255, 255, 255;
+  --text-secondary: 173, 183, 190;
+  --card-bg: 24, 24, 24;
+  --border-color: 51, 53, 63;
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  color: rgb(var(--text-primary));
+  background: rgb(var(--background-start-rgb));
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Additional theme-specific styles */
+.light .text-white {
+  color: rgb(var(--text-primary));
+}
+
+.light .bg-\[\#121212\] {
+  background-color: rgb(var(--background-start-rgb));
+}
+
+.light .bg-\[\#181818\] {
+  background-color: rgb(var(--card-bg));
+}
+
+.light .border-\[\#33353F\] {
+  border-color: rgb(var(--border-color));
+}
+
+.light .text-\[\#ADB7BE\] {
+  color: #666;
+}
+
+.light .text-slate-400 {
+  color: #555;
+}
+
+/* Ensure gradient text remains visible in light mode */
+.light .text-transparent.bg-clip-text.bg-gradient-to-r {
+  color: transparent;
 }

@@ -62,11 +62,11 @@ const EmailSection = () => {
         <button onClick={handleEmailClick} className="text-[#ADB7BE] mb-4 max-w-md text-justify">Email: hoangnph@gmail.com</button>
         <br />
         <div className="socials flex flex-row gap-2">
-          <Link href=" https://zalo.me/0963760450">
-            <Image src={ZaloIcon} alt="Zalo Icon" />
+          <Link href=" https://zalo.me/0963760450" className="bg-blue-600 p-2 rounded-full">
+            <Image src={ZaloIcon} alt="Zalo Icon" className="w-5 h-5" />
           </Link>
-          <Link href="https://www.facebook.com/hoang.h.nguyenphu">
-            <Image src={FacebookIcon} alt="Facebook Icon" />
+          <Link href="https://www.facebook.com/hoang.h.nguyenphu" className="bg-blue-600 p-2 rounded-full">
+            <Image src={FacebookIcon} alt="Facebook Icon" className="w-5 h-5" />
           </Link>
         </div>
       </div>

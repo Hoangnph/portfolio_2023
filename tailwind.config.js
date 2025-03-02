@@ -7,6 +7,7 @@ module.exports = {
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  darkMode: 'class',
   theme: {
     extend: {
       backgroundImage: {
@@ -14,11 +15,18 @@ module.exports = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
-    },
-    colors: {
-      ...colors,
-      primary: colors.purple,
-      secondary: colors.pink,
+      colors: {
+        ...colors,
+        primary: {
+          400: 'rgb(var(--primary-color))',
+          500: 'rgb(var(--primary-color))',
+          600: 'rgb(var(--primary-color))',
+        },
+        secondary: {
+          500: 'rgb(var(--secondary-color))',
+          600: 'rgb(var(--secondary-color))',
+        },
+      },
     },
   },
   plugins: [],

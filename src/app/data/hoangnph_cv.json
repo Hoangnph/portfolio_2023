@@ -3,6 +3,7 @@
     "thong_tin_ca_nhan": {
       "ho_ten": "Nguyễn Phú Huy Hoàng",
       "email": "hoangnph@gmail.com",
+      "nam_sinh": "1986",
       "so_dien_thoai": "+84-0963-760-450",
       "linkedin": "https://www.pippala.tech",
       "dia_diem": "Thành phố Hà Nội, Việt Nam"
@@ -57,7 +58,7 @@
         "thoi_gian": "Năm 2020 – 2022",
         "trach_nhiem": [
           "Phối nhợp xây dựng, phát triển triển khai các hệ thống bảo mật cho NEAC, Đài truyền hình Việt Nam, các sở ban ngành ...",
-          "Triển khai tự động hóa giám sát hệ thống mạng thời gian thực.",
+          "Triển khai tự động hóa giám sát hệ thống mạng thời gian thực."
         ]
       },
       {

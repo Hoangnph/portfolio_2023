@@ -37,6 +37,7 @@ const apiHost = process.env.NEXT_PUBLIC_API_HOST || 'http://localhost:8888';
                     showAgentMessages: true,
                     welcomeMessage: 'Xin chào! Tôi là trợ lý của Hoàng, hãy hỏi tôi các thông tin bạn muốn biết về Hoàng nhé',
                     errorMessage: 'This is a custom error message',
+                    loadingMessage: 'Đang suy nghĩ...',
                     backgroundColor: "#ffffff",
                     backgroundImage: 'enter image path or link', // If set, this will overlap the background color of the chat window.
                     height: 700,
